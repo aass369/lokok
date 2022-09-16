@@ -17,7 +17,10 @@
     margin: 0;
     background-color: black;
   }
-
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
 
 
   #card {
