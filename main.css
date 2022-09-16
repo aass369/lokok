@@ -22,7 +22,9 @@ body {
   min-height: -webkit-fill-available;
 }
 
-
+html {
+  height: -webkit-fill-available;
+}
   #card {
     animation: cssAnimation 0s 3s forwards;
     margin: 0%;
