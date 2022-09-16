@@ -8,10 +8,7 @@
     top: 0;
     bottom: 0;
     z-index: -1;
-     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
   }
   .bottom {
     position: fixed;
@@ -20,14 +17,8 @@
     margin: 0;
     background-color: black;
   }
-@supports(padding:max(0px)) {
-    body, header, footer {
-        padding-left: min(0vmin, env(safe-area-inset-left));
-        padding-right: min(0vmin, env(safe-area-inset-right));
-            padding-top: min(0vmin, env(safe-area-inset-left));
-        padding-bottom: min(0vmin, env(safe-area-inset-right));
-    }
-}
+
+
 
   #card {
     animation: cssAnimation 0s 3s forwards;
