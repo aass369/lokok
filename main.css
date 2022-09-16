@@ -17,7 +17,7 @@
     background-color: black;
   }
 body {
-  min-height: 110vh;
+  height: 100vh;
   min-height: -webkit-fill-available;
 }
 
