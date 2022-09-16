@@ -16,6 +16,12 @@
     margin: 0;
     background-color: black;
   }
+@supports(padding:max(0px)) {
+    body, header, footer {
+        padding-left: min(0vmin, env(safe-area-inset-left));
+        padding-right: min(0vmin, env(safe-area-inset-right));
+    }
+}
 
   #card {
     animation: cssAnimation 0s 3s forwards;
