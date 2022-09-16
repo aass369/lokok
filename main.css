@@ -1,5 +1,5 @@
 #bgvideo {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     object-fit: cover;
     position: fixed;
@@ -18,7 +18,7 @@
     background-color: black;
   }
 body {
-  min-height: 100vh;
+  min-height: 110vh;
   min-height: -webkit-fill-available;
 }
 
