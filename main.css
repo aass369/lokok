@@ -8,23 +8,25 @@
     top: 0;
     bottom: 0;
     z-index: -1;
-
   }
   .bottom {
-position: fixed;
+    position: fixed;
     width: 390px;
     bottom: 0px;
     margin: 0;
     background-color: black;
+    
   }
-body {
-  height: 100vh;
-  min-height: -webkit-fill-available;
-}
 
-html {
-  height: -webkit-fill-available;
-}
+  body {
+    height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+
   #card {
     animation: cssAnimation 0s 3s forwards;
     margin: 0%;
@@ -43,5 +45,5 @@ html {
   .bild {
         width: 100%;
     border-radius: 5px;
-margin-top: 10rem;
+margin-top: 7rem;
   }
